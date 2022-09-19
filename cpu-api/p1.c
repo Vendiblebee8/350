@@ -14,8 +14,10 @@ main(int argc, char *argv[])
     } else if (rc == 0) {
         // child (new process)
         printf("hello, I am child (pid:%d)\n", (int) getpid());
+	exit(0);
     } else {
         // parent goes down this path (original process)
+      sleep(6);
         printf("hello, I am parent of %d (pid:%d)\n",
 	       rc, (int) getpid());
     }

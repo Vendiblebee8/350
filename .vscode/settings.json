@@ -1,0 +1,22 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "*.tcc": "cpp",
+        "iostream": "cpp",
+        "chrono": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "ctime": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "initializer_list": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "ratio": "cpp",
+        "type_traits": "cpp",
+        "typeinfo": "cpp",
+        "utility": "cpp"
+    }
+}
